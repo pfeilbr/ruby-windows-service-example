@@ -1,0 +1,20 @@
+h1. Ruby Windows Service Example
+
+Example of how to run ruby code as a windows service
+
+h2. Prerequisites
+
+For the serivce and daemon functionality
+
+ gem install win32-service win32-daemon
+
+For the example sinatra app
+
+ gem install rack sinatra
+
+h2. To install the service
+
+This will install the windows service.  Open up register_ruby_service_example.rb to change the service name
+
+ ruby register_ruby_service_example.rb
+
